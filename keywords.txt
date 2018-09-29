@@ -1,0 +1,56 @@
+#######################################
+# Class
+#######################################
+
+CRTC					KEYWORD1
+RTC						KEYWORD2
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+GetRTC					KEYWORD2
+SetRTC					KEYWORD2
+GetTimeSeconds			KEYWORD2
+GetTime					KEYWORD2
+SetTime					KEYWORD2
+GetDate					KEYWORD2
+SetDate					KEYWORD2
+GetTemperature			KEYWORD2
+ConvertTemperature		KEYWORD2
+GetSRAM					KEYWORD2
+SetSRAM					KEYWORD2
+SetAlarmRTC				KEYWORD2
+SetAlarmTime			KEYWORD2
+GetAlarmRTC				KEYWORD2
+GetAlarmSeconds			KEYWORD2
+GetAlarmTime			KEYWORD2
+SetAlarmState			KEYWORD2
+GetAlarmState			KEYWORD2
+IsAlarmTriggered		KEYWORD2
+AlarmReset				KEYWORD2
+SetSquareWave			KEYWORD2
+GetSquareWave			KEYWORD2
+
+#######################################
+# Constants
+#######################################
+
+BITMASK_32KHZ_OUTPUT	LITERAL1
+BITMASK_CLOCK_HALT		LITERAL1
+BITMASK_ALARM_TOGGLE	LITERAL1
+BITMASK_ALARM_FLAG		LITERAL1
+BITMASK_SQUARE_WAVE		LITERAL1
+BITMASK_FREQUENCY		LITERAL1
+ADDRESS_TIME			LITERAL1
+ADDRESS_DAY				LITERAL1
+ADDRESS_DATE			LITERAL1
+ADDRESS_DS1307_SRAM		LITERAL1
+ADDRESS_DS3232_SRAM		LITERAL1
+ADDRESS_DS1307_ALARM	LITERAL1
+ADDRESS_DS3232_ALARM	LITERAL1
+ADDRESS_DS3232_CTRL		LITERAL1
+ADDRESS_DS3232_STATUS	LITERAL1
+ADDRESS_DS3232_TEMP		LITERAL1
+SIZE_DS1307_SRAM		LITERAL1
+SIZE_DS3232_SRAM		LITERAL1
